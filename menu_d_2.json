@@ -1,0 +1,1471 @@
+{
+  "categories": [
+    {
+      "id": "ccdfc7fe-8541-49a8-947c-f1bec669056c",
+      "name": "OPX Cat_1",
+      "description": "this is main category",
+      "items": [
+        {
+          "id": "999967",
+          "name": "Item_1",
+          "price": 12
+        },
+        {
+          "id": "999968",
+          "name": "Item_111",
+          "price": 20
+        },
+        {
+          "id": "999972",
+          "name": "Item with special  chars~!@#$%^&**()_+++_)QQQQQQQQQQQ QQQQQQQQQQQQQQQQQQ WWWWWWWWWWWWWWWWWWWWWWWWWWWW EEEEEEEEEEEEEEE RRRRRRRRRRRRRRRRRRRRRRRRRR TTTTTTTTTTTTTTTTTTTT YYYYYYYYYYYYYYYYYY YYYYYYYYYYYYYYYYYYYYYY UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU IIIIIIIIIIIIIII",
+          "price": 2.3
+        }
+      ],
+      "modifiers": [
+        {
+          "id": "4fbc9750-2801-11eb-ba07-8f118a2dfc87",
+          "name": "mod option X",
+          "price": 1
+        },
+        {
+          "id": "5a6503e0-2801-11eb-ba07-8f118a2dfc87",
+          "name": "mod option Y",
+          "price": 2
+        },
+        {
+          "id": "5f6adf90-2801-11eb-ba07-8f118a2dfc87",
+          "name": "mod option Z",
+          "price": 3
+        },
+        {
+          "id": "2532ac20-295c-11eb-9181-e5aba1009d41",
+          "name": "opx modifier 11",
+          "price": 11
+        },
+        {
+          "id": "4255c760-295c-11eb-9181-e5aba1009d41",
+          "name": "opx modifier 12",
+          "price": 12
+        },
+        {
+          "id": "49c4b3d0-295c-11eb-9181-e5aba1009d41",
+          "name": "opx modifier 13",
+          "price": 13
+        },
+        {
+          "id": "710057b0-295c-11eb-9181-e5aba1009d41",
+          "name": "opx modifier 21",
+          "price": 2.1
+        },
+        {
+          "id": "76dda7a0-295c-11eb-9181-e5aba1009d41",
+          "name": "opx modifier 22",
+          "price": 2.2
+        },
+        {
+          "id": "7c4a8280-295c-11eb-9181-e5aba1009d41",
+          "name": "opx modifier 23",
+          "price": 2.3
+        },
+        {
+          "id": "2532ac20-295c-11eb-9181-e5aba1009d41",
+          "name": "opx modifier 11",
+          "price": 11
+        },
+        {
+          "id": "4255c760-295c-11eb-9181-e5aba1009d41",
+          "name": "opx modifier 12",
+          "price": 12
+        },
+        {
+          "id": "49c4b3d0-295c-11eb-9181-e5aba1009d41",
+          "name": "opx modifier 13",
+          "price": 13
+        }
+      ],
+      "hours": {
+        "m_open": 60,
+        "m_close": 1440,
+        "t_open": 60,
+        "t_close": 1440,
+        "w_open": 60,
+        "w_close": 1440,
+        "th_open": 60,
+        "th_close": 1440,
+        "f_open": 60,
+        "f_close": 1440,
+        "s_open": 0,
+        "s_close": 0,
+        "su_open": 0,
+        "su_close": 0
+      },
+      "menu_items": [
+        {
+          "active": true,
+          "name": "Item_1",
+          "description": "Food for dinner",
+          "prices": [
+            {
+              "name": "",
+              "price": 12,
+              "pos": "999967"
+            }
+          ],
+          "images": ["https://pos1-images.cake.net/11807434/menu/items/lg/item_image_8d5b5300-27d2-11eb-b9d3-95b3a9e6c7e2.jpeg"],
+          "pos_id": "999967",
+          "option_groups": [
+            {
+              "id": "a83ffac8-e1f6-4089-b9c8-4f07bf401ccc",
+              "name": "POX mod group1 UPDATED",
+              "min": 2,
+              "max": 3,
+              "multiselect": true,
+              "complex": false,
+              "quantities": false,
+              "options": [
+                {
+                  "name": "mod option X",
+                  "price": 1,
+                  "pos": "4fbc9750-2801-11eb-ba07-8f118a2dfc87"
+                },
+                {
+                  "name": "mod option Y",
+                  "price": 2,
+                  "pos": "5a6503e0-2801-11eb-ba07-8f118a2dfc87"
+                },
+                {
+                  "name": "mod option Z",
+                  "price": 3,
+                  "pos": "5f6adf90-2801-11eb-ba07-8f118a2dfc87"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "active": true,
+          "name": "Item_111",
+          "description": "This is use for PX item verification",
+          "prices": [
+            {
+              "name": "",
+              "price": 20,
+              "pos": "999968"
+            }
+          ],
+          "images": [],
+          "pos_id": "999968",
+          "option_groups": [
+            {
+              "id": "42fd8498-aed6-463c-abd2-3cf424af673d",
+              "name": "OPX moditier group 1",
+              "min": 1,
+              "max": 2,
+              "multiselect": true,
+              "complex": false,
+              "quantities": false,
+              "options": [
+                {
+                  "name": "opx modifier 11",
+                  "price": 11,
+                  "pos": "2532ac20-295c-11eb-9181-e5aba1009d41"
+                },
+                {
+                  "name": "opx modifier 12",
+                  "price": 12,
+                  "pos": "4255c760-295c-11eb-9181-e5aba1009d41"
+                },
+                {
+                  "name": "opx modifier 13",
+                  "price": 13,
+                  "pos": "49c4b3d0-295c-11eb-9181-e5aba1009d41"
+                }
+              ]
+            },
+            {
+              "id": "a891c21f-098c-43b7-ab44-c1c0153628ca",
+              "name": "OPX moditier group 2",
+              "min": 0,
+              "max": 0,
+              "multiselect": false,
+              "complex": false,
+              "quantities": false,
+              "options": [
+                {
+                  "name": "opx modifier 21",
+                  "price": 2.1,
+                  "pos": "710057b0-295c-11eb-9181-e5aba1009d41"
+                },
+                {
+                  "name": "opx modifier 22",
+                  "price": 2.2,
+                  "pos": "76dda7a0-295c-11eb-9181-e5aba1009d41"
+                },
+                {
+                  "name": "opx modifier 23",
+                  "price": 2.3,
+                  "pos": "7c4a8280-295c-11eb-9181-e5aba1009d41"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "active": true,
+          "name": "Item with special  chars~!@#$%^&**()_+++_)QQQQQQQQQQQ QQQQQQQQQQQQQQQQQQ WWWWWWWWWWWWWWWWWWWWWWWWWWWW EEEEEEEEEEEEEEE RRRRRRRRRRRRRRRRRRRRRRRRRR TTTTTTTTTTTTTTTTTTTT YYYYYYYYYYYYYYYYYY YYYYYYYYYYYYYYYYYYYYYY UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU IIIIIIIIIIIIIII",
+          "description": "qqqqqqqqqqqq qqqqoqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq wwwwwwwwwwwwwwwwwwwwwww eeeeeeeeeeeeeeeeeeee rrrrrrrrrrrrrrrrr tttttttttttttttttt yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu uuuuuuuuuuuuuuuuuuuuuuuuuuu iiiiiiiiiiiiiiiiiiiiiiiiiiiii5",
+          "prices": [
+            {
+              "name": "",
+              "price": 2.3,
+              "pos": "999972"
+            }
+          ],
+          "images": [],
+          "pos_id": "999972",
+          "option_groups": [
+            {
+              "id": "42fd8498-aed6-463c-abd2-3cf424af673d",
+              "name": "OPX moditier group 1",
+              "min": 1,
+              "max": 2,
+              "multiselect": true,
+              "complex": false,
+              "quantities": false,
+              "options": [
+                {
+                  "name": "opx modifier 11",
+                  "price": 11,
+                  "pos": "2532ac20-295c-11eb-9181-e5aba1009d41"
+                },
+                {
+                  "name": "opx modifier 12",
+                  "price": 12,
+                  "pos": "4255c760-295c-11eb-9181-e5aba1009d41"
+                },
+                {
+                  "name": "opx modifier 13",
+                  "price": 13,
+                  "pos": "49c4b3d0-295c-11eb-9181-e5aba1009d41"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e92abb42-9e2f-4874-86fb-1e2459bfa104",
+      "name": "OPX WINGS",
+      "description": "Our wings are made fresh so it takes a bit longer (est. 20 minutes.)",
+      "items": [
+        {
+          "id": "1201",
+          "name": "Traditional Wings (5)",
+          "price": 7.95
+        },
+        {
+          "id": "1101",
+          "name": "Boneless Wings (5)",
+          "price": 6.95
+        }
+      ],
+      "modifiers": [],
+      "hours": {
+        "m_open": 60,
+        "m_close": 1440,
+        "t_open": 60,
+        "t_close": 1440,
+        "w_open": 60,
+        "w_close": 1440,
+        "th_open": 60,
+        "th_close": 1440,
+        "f_open": 60,
+        "f_close": 1440,
+        "s_open": 0,
+        "s_close": 0,
+        "su_open": 0,
+        "su_close": 0
+      },
+      "menu_items": [
+        {
+          "active": true,
+          "name": "Traditional Wings (5)",
+          "description": "5 piece Traditional Wings, sauce'd your way.  Our traditional wings are made fresh so it takes a bit longer (est. 20 minutes.)",
+          "prices": [
+            {
+              "name": "",
+              "price": 7.95,
+              "pos": "1201"
+            }
+          ],
+          "images": ["https://pos1-images.cake.net/11807434/menu/items/lg/item_image_8d5b5300-27d2-11eb-b9d3-95b3a9e6c7e2.jpeg"],
+          "pos_id": "1201",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "Boneless Wings (5)",
+          "description": "5 piece boneless wings, using cuts of all natural, hand breaded, chicken breast, sauce'd your way. Our wings are made fresh so it takes a bit longer (est. 20 minutes.)",
+          "prices": [
+            {
+              "name": "",
+              "price": 6.95,
+              "pos": "1101"
+            }
+          ],
+          "images": [],
+          "pos_id": "1101",
+          "option_groups": []
+        }
+      ]
+    },
+    {
+      "id": "42eada63-3641-4c2e-fa0f-3942f95242e6",
+      "name": "TRADITIONAL WINGS",
+      "description": "Simply the best in New York style wings. Spun in your favorite buffalo wing sauce. Served with  blue cheese or ranch dressing upon request. Our traditional wings are made fresh so they take a bit longer to prepare (est. 20 minutes)",
+      "items": [
+        {
+          "id": "1202",
+          "name": "Traditional Wings (10)",
+          "price": 12.95
+        },
+        {
+          "id": "1203",
+          "name": "Traditional Wings (15)",
+          "price": 17.95
+        },
+        {
+          "id": "1204",
+          "name": "Traditional Wings (20)",
+          "price": 22.95
+        }
+      ],
+      "modifiers": [],
+      "menu_items": [
+        {
+          "active": true,
+          "name": "Traditional Wings (10)",
+          "description": "10 piece Traditional Wings, sauce'd your way.  Our traditional wings are made fresh so it takes a bit longer (est. 20 minutes.)",
+          "prices": [
+            {
+              "name": "",
+              "price": 12.95,
+              "pos": "1202"
+            }
+          ],
+          "images": [],
+          "pos_id": "1202",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "Traditional Wings (15)",
+          "description": "15 piece Traditional Wings, sauce'd your way.  Our traditional wings are made fresh so it takes a bit longer (est. 20 minutes.)",
+          "prices": [
+            {
+              "name": "",
+              "price": 17.95,
+              "pos": "1203"
+            }
+          ],
+          "images": [],
+          "pos_id": "1203",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "Traditional Wings (20)",
+          "description": "20 piece Traditional Wings, sauce'd your way.  Our traditional wings are made fresh so it takes a bit longer (est. 20 minutes.)",
+          "prices": [
+            {
+              "name": "",
+              "price": 22.95,
+              "pos": "1204"
+            }
+          ],
+          "images": [],
+          "pos_id": "1204",
+          "option_groups": []
+        }
+      ]
+    },
+    {
+      "id": "02b36e74-26a8-4bd0-e9c4-f0a2f2506e6e",
+      "name": "BONELESS WINGS",
+      "description": "",
+      "items": [
+        {
+          "id": "1102",
+          "name": "Boneless Wings (10)",
+          "price": 11.95
+        },
+        {
+          "id": "1103",
+          "name": "Boneless Wings (15)",
+          "price": 16.95
+        },
+        {
+          "id": "1104",
+          "name": "Boneless Wings (20)",
+          "price": 21.95
+        }
+      ],
+      "modifiers": [],
+      "menu_items": [
+        {
+          "active": true,
+          "name": "Boneless Wings (10)",
+          "description": "10 piece boneless wings, using cuts of all natural, hand breaded, chicken breast, sauce'd your way. Our wings are made fresh so it takes a bit longer (est. 20 minutes.)",
+          "prices": [
+            {
+              "name": "",
+              "price": 11.95,
+              "pos": "1102"
+            }
+          ],
+          "images": [],
+          "pos_id": "1102",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "Boneless Wings (15)",
+          "description": "15 piece boneless wings, using cuts of all natural, hand breaded, chicken breast, sauce'd your way. Our wings are made fresh so it takes a bit longer (est. 20 minutes.)",
+          "prices": [
+            {
+              "name": "",
+              "price": 16.95,
+              "pos": "1103"
+            }
+          ],
+          "images": [],
+          "pos_id": "1103",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "Boneless Wings (20)",
+          "description": "20 piece boneless wings, using cuts of all natural, hand breaded, chicken breast, sauce'd your way. Our wings are made fresh so it takes a bit longer (est. 20 minutes.)",
+          "prices": [
+            {
+              "name": "",
+              "price": 21.95,
+              "pos": "1104"
+            }
+          ],
+          "images": [],
+          "pos_id": "1104",
+          "option_groups": []
+        }
+      ]
+    },
+    {
+      "id": "53d2ff58-d6bd-4281-9193-8a87cf05938a",
+      "name": "OPX DESSERTS",
+      "description": "",
+      "items": [
+        {
+          "id": "999924",
+          "name": "Nemo's Chocolate Cake",
+          "price": 1.99
+        },
+        {
+          "id": "999925",
+          "name": "Nemo's Strawberry Cake",
+          "price": 1.99
+        },
+        {
+          "id": "999927",
+          "name": "Nemo's Banana Cake",
+          "price": 1.99
+        },
+        {
+          "id": "999926",
+          "name": "Nemo's Carrot Cake",
+          "price": 1.99
+        }
+      ],
+      "modifiers": [],
+      "hours": {
+        "m_open": 0,
+        "m_close": 1440,
+        "t_open": 0,
+        "t_close": 1440,
+        "w_open": 0,
+        "w_close": 0,
+        "th_open": 0,
+        "th_close": 1440,
+        "f_open": 0,
+        "f_close": 1440,
+        "s_open": 0,
+        "s_close": 1440,
+        "su_open": 0,
+        "su_close": 0
+      },
+      "menu_items": [
+        {
+          "active": true,
+          "name": "Nemo's Chocolate Cake",
+          "description": "Made with Cocoa & Buttermilk",
+          "prices": [
+            {
+              "name": "",
+              "price": 1.99,
+              "pos": "999924"
+            }
+          ],
+          "images": [],
+          "pos_id": "999924",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "Nemo's Strawberry Cake",
+          "description": "Made with Fresh Strawberries",
+          "prices": [
+            {
+              "name": "",
+              "price": 1.99,
+              "pos": "999925"
+            }
+          ],
+          "images": [],
+          "pos_id": "999925",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "Nemo's Banana Cake",
+          "description": "Made with Banana Walnuts & Buttermilk",
+          "prices": [
+            {
+              "name": "",
+              "price": 1.99,
+              "pos": "999927"
+            }
+          ],
+          "images": [],
+          "pos_id": "999927",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "Nemo's Carrot Cake",
+          "description": "Made with Carrots, Walnuts & Cinnamon",
+          "prices": [
+            {
+              "name": "",
+              "price": 1.99,
+              "pos": "999926"
+            }
+          ],
+          "images": [],
+          "pos_id": "999926",
+          "option_groups": []
+        }
+      ]
+    },
+    {
+      "id": "840f09f3-a7e6-432d-d86d-8d21020bb563",
+      "name": "OPX DRINKS",
+      "description": "We carry Pepsi products. ",
+      "items": [
+        {
+          "id": "4002",
+          "name": "Large Drink",
+          "price": 3
+        },
+        {
+          "id": "4003",
+          "name": "Bottled Water 20 fl oz",
+          "price": 1.8
+        },
+        {
+          "id": "4505",
+          "name": "MODELO",
+          "price": 5
+        },
+        {
+          "id": "4506",
+          "name": "MODELO NEGRA",
+          "price": 5
+        },
+        {
+          "id": "4504",
+          "name": "PACIFICO",
+          "price": 5
+        },
+        {
+          "id": "4501",
+          "name": "CORONA",
+          "price": 5
+        },
+        {
+          "id": "4508",
+          "name": "SIERRA NEVADA",
+          "price": 6.5
+        },
+        {
+          "id": "4507",
+          "name": "LAGUNITAS",
+          "price": 6.5
+        },
+        {
+          "id": "4502",
+          "name": "COORS LIGHT",
+          "price": 4.5
+        },
+        {
+          "id": "4510",
+          "name": "BLUE MOON1",
+          "price": 5.5
+        },
+        {
+          "id": "999975",
+          "name": "item test 2",
+          "price": 12
+        }
+      ],
+      "modifiers": [],
+      "hours": {
+        "m_open": 245,
+        "m_close": 1320,
+        "t_open": 245,
+        "t_close": 1320,
+        "w_open": 245,
+        "w_close": 1320,
+        "th_open": 245,
+        "th_close": 1320,
+        "f_open": 245,
+        "f_close": 1320,
+        "s_open": 245,
+        "s_close": 1320,
+        "su_open": 0,
+        "su_close": 0
+      },
+      "menu_items": [
+        {
+          "active": true,
+          "name": "Large Drink",
+          "description": "",
+          "prices": [
+            {
+              "name": "",
+              "price": 3,
+              "pos": "4002"
+            }
+          ],
+          "images": [],
+          "pos_id": "4002",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "Bottled Water 20 fl oz",
+          "description": "",
+          "prices": [
+            {
+              "name": "",
+              "price": 1.8,
+              "pos": "4003"
+            }
+          ],
+          "images": [],
+          "pos_id": "4003",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "MODELO",
+          "description": "",
+          "prices": [
+            {
+              "name": "",
+              "price": 5,
+              "pos": "4505"
+            }
+          ],
+          "images": [],
+          "pos_id": "4505",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "MODELO NEGRA",
+          "description": "",
+          "prices": [
+            {
+              "name": "",
+              "price": 5,
+              "pos": "4506"
+            }
+          ],
+          "images": [],
+          "pos_id": "4506",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "PACIFICO",
+          "description": "",
+          "prices": [
+            {
+              "name": "",
+              "price": 5,
+              "pos": "4504"
+            }
+          ],
+          "images": [],
+          "pos_id": "4504",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "CORONA",
+          "description": "",
+          "prices": [
+            {
+              "name": "",
+              "price": 5,
+              "pos": "4501"
+            }
+          ],
+          "images": [],
+          "pos_id": "4501",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "SIERRA NEVADA",
+          "description": "",
+          "prices": [
+            {
+              "name": "",
+              "price": 6.5,
+              "pos": "4508"
+            }
+          ],
+          "images": [],
+          "pos_id": "4508",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "LAGUNITAS",
+          "description": "",
+          "prices": [
+            {
+              "name": "",
+              "price": 6.5,
+              "pos": "4507"
+            }
+          ],
+          "images": [],
+          "pos_id": "4507",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "COORS LIGHT",
+          "description": "",
+          "prices": [
+            {
+              "name": "",
+              "price": 4.5,
+              "pos": "4502"
+            }
+          ],
+          "images": [],
+          "pos_id": "4502",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "BLUE MOON1",
+          "description": ".",
+          "prices": [
+            {
+              "name": "",
+              "price": 5.5,
+              "pos": "4510"
+            }
+          ],
+          "images": [],
+          "pos_id": "4510",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "item test 2",
+          "description": "",
+          "prices": [
+            {
+              "name": "",
+              "price": 12,
+              "pos": "999975"
+            }
+          ],
+          "images": [],
+          "pos_id": "999975",
+          "option_groups": []
+        }
+      ]
+    },
+    {
+      "id": "c9cf32e8-b35a-41d5-b9cf-b128cdc29815",
+      "name": "OPX BUFFALO FRIES",
+      "description": "",
+      "items": [
+        {
+          "id": "0001",
+          "name": "Buffalo Fries - Small",
+          "price": 6
+        },
+        {
+          "id": "0002",
+          "name": "Buffalo Fries - Regular",
+          "price": 9.5
+        },
+        {
+          "id": "0003",
+          "name": "Buffalo Fries - Large",
+          "price": 11
+        },
+        {
+          "id": "0004",
+          "name": "Small Hot Cheetos Buffalo Fries",
+          "price": 6.5
+        },
+        {
+          "id": "0005",
+          "name": "Regular Hot Cheetos Buffalo Fries",
+          "price": 9.5
+        },
+        {
+          "id": "0006",
+          "name": "Large Hot Cheetos Buffalo Fries",
+          "price": 11
+        },
+        {
+          "id": "999914",
+          "name": "Extra Chicken",
+          "price": 1.99
+        },
+        {
+          "id": "999966",
+          "name": "Boss Fries",
+          "price": 29.99
+        }
+      ],
+      "modifiers": [],
+      "hours": {
+        "m_open": 60,
+        "m_close": 1440,
+        "t_open": 60,
+        "t_close": 1440,
+        "w_open": 60,
+        "w_close": 1440,
+        "th_open": 60,
+        "th_close": 1440,
+        "f_open": 60,
+        "f_close": 1440,
+        "s_open": 0,
+        "s_close": 0,
+        "su_open": 0,
+        "su_close": 0
+      },
+      "menu_items": [
+        {
+          "active": true,
+          "name": "Buffalo Fries - Small",
+          "description": "Diced hand breaded chicken breast, sauced your way, then piled on top of a bed of fries.  Finished with a drizzle of our special sauce.",
+          "prices": [
+            {
+              "name": "",
+              "price": 6,
+              "pos": "0001"
+            }
+          ],
+          "images": [],
+          "pos_id": "0001",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "Buffalo Fries - Regular",
+          "description": "Diced hand breaded chicken breast, sauced your way, then piled on top of a bed of fries.  Finished with a drizzle of our special sauce.",
+          "prices": [
+            {
+              "name": "",
+              "price": 9.5,
+              "pos": "0002"
+            }
+          ],
+          "images": [],
+          "pos_id": "0002",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "Buffalo Fries - Large",
+          "description": "Diced hand breaded chicken breast, sauced your way, then piled on top of a bed of fries.  Finished with a drizzle of our special sauce.",
+          "prices": [
+            {
+              "name": "",
+              "price": 11,
+              "pos": "0003"
+            }
+          ],
+          "images": [],
+          "pos_id": "0003",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "Small Hot Cheetos Buffalo Fries",
+          "description": "Diced hand breaded chicken breast, sauced your way, then piled on top of a bed of fries.  Flaming Hot Cheetos sprinkled on top.  Finished with a drizzle of our special sauce.",
+          "prices": [
+            {
+              "name": "",
+              "price": 6.5,
+              "pos": "0004"
+            }
+          ],
+          "images": [],
+          "pos_id": "0004",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "Regular Hot Cheetos Buffalo Fries",
+          "description": "Diced hand breaded chicken breast, sauced your way, then piled on top of a bed of fries.  Flaming Hot Cheetos sprinkled on top.  Finished with a drizzle of our special sauce.",
+          "prices": [
+            {
+              "name": "",
+              "price": 9.5,
+              "pos": "0005"
+            }
+          ],
+          "images": [],
+          "pos_id": "0005",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "Large Hot Cheetos Buffalo Fries",
+          "description": "Diced hand breaded chicken breast, sauced your way, then piled on top of a bed of fries.  Flaming Hot Cheetos sprinkled on top.  Finished with a drizzle of our special sauce.",
+          "prices": [
+            {
+              "name": "",
+              "price": 11,
+              "pos": "0006"
+            }
+          ],
+          "images": [],
+          "pos_id": "0006",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "Extra Chicken",
+          "description": "",
+          "prices": [
+            {
+              "name": "",
+              "price": 1.99,
+              "pos": "999914"
+            }
+          ],
+          "images": [],
+          "pos_id": "999914",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "Boss Fries",
+          "description": "Huge box of crispy fries and diced chicken packaged together, choose up to 4 wing sauces",
+          "prices": [
+            {
+              "name": "",
+              "price": 29.99,
+              "pos": "999966"
+            }
+          ],
+          "images": [],
+          "pos_id": "999966",
+          "option_groups": []
+        }
+      ]
+    },
+    {
+      "id": "2b101e42-d4a0-477a-a5f0-953b6019e714",
+      "name": "OPX Cat_test 111",
+      "description": "",
+      "items": [
+        {
+          "id": "4001",
+          "name": "Regular Drink",
+          "price": 2.5
+        },
+        {
+          "id": "4503",
+          "name": "WHITE CLAW",
+          "price": 4.5
+        },
+        {
+          "id": "4509",
+          "name": "8055566",
+          "price": 5
+        },
+        {
+          "id": "999977",
+          "name": "Item newly added 1117",
+          "price": 120
+        }
+      ],
+      "modifiers": [],
+      "hours": {
+        "m_open": 60,
+        "m_close": 1440,
+        "t_open": 60,
+        "t_close": 1440,
+        "w_open": 60,
+        "w_close": 1440,
+        "th_open": 60,
+        "th_close": 1440,
+        "f_open": 60,
+        "f_close": 1440,
+        "s_open": 0,
+        "s_close": 0,
+        "su_open": 0,
+        "su_close": 0
+      },
+      "menu_items": [
+        {
+          "active": true,
+          "name": "Regular Drink",
+          "description": "",
+          "prices": [
+            {
+              "name": "",
+              "price": 2.5,
+              "pos": "4001"
+            }
+          ],
+          "images": [],
+          "pos_id": "4001",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "WHITE CLAW",
+          "description": "",
+          "prices": [
+            {
+              "name": "",
+              "price": 4.5,
+              "pos": "4503"
+            }
+          ],
+          "images": [],
+          "pos_id": "4503",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "8055566",
+          "description": "",
+          "prices": [
+            {
+              "name": "",
+              "price": 5,
+              "pos": "4509"
+            }
+          ],
+          "images": [],
+          "pos_id": "4509",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "Item newly added 1117",
+          "description": "",
+          "prices": [
+            {
+              "name": "",
+              "price": 120,
+              "pos": "999977"
+            }
+          ],
+          "images": [],
+          "pos_id": "999977",
+          "option_groups": []
+        }
+      ]
+    },
+    {
+      "id": "5e7addfb-4584-4d48-c294-0b1086d245f2",
+      "name": "CHICKEN TENDERS",
+      "description": "Simply better. Always fresh.",
+      "items": [
+        {
+          "id": "1301",
+          "name": "Tenders (5)",
+          "price": 8.95
+        },
+        {
+          "id": "1302",
+          "name": "Tenders (10)",
+          "price": 14.95
+        },
+        {
+          "id": "1303",
+          "name": "Tenders (15)",
+          "price": 22.95
+        },
+        {
+          "id": "1304",
+          "name": "Tenders (20)",
+          "price": 27.95
+        }
+      ],
+      "modifiers": [],
+      "hours": {
+        "m_open": 60,
+        "m_close": 1440,
+        "t_open": 60,
+        "t_close": 1440,
+        "w_open": 60,
+        "w_close": 1440,
+        "th_open": 60,
+        "th_close": 1440,
+        "f_open": 60,
+        "f_close": 1440,
+        "s_open": 0,
+        "s_close": 0,
+        "su_open": 0,
+        "su_close": 0
+      },
+      "menu_items": [
+        {
+          "active": true,
+          "name": "Tenders (5)",
+          "description": "5 tenders, using cut strips of all natural, hand breaded chicken breast, sauce'd your way",
+          "prices": [
+            {
+              "name": "",
+              "price": 8.95,
+              "pos": "1301"
+            }
+          ],
+          "images": [],
+          "pos_id": "1301",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "Tenders (10)",
+          "description": "10 tenders, using cut strips of all natural, hand breaded chicken breast, sauce'd your way.",
+          "prices": [
+            {
+              "name": "",
+              "price": 14.95,
+              "pos": "1302"
+            }
+          ],
+          "images": [],
+          "pos_id": "1302",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "Tenders (15)",
+          "description": "15 tenders, using cut strips of all natural, hand breaded chicken breast, sauce'd your way.",
+          "prices": [
+            {
+              "name": "",
+              "price": 22.95,
+              "pos": "1303"
+            }
+          ],
+          "images": [],
+          "pos_id": "1303",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "Tenders (20)",
+          "description": "20 tenders, using cut strips of all natural, hand breaded chicken breast, sauce'd your way.",
+          "prices": [
+            {
+              "name": "",
+              "price": 27.95,
+              "pos": "1304"
+            }
+          ],
+          "images": [],
+          "pos_id": "1304",
+          "option_groups": []
+        }
+      ]
+    },
+    {
+      "id": "c3237910-0ed4-49ac-b281-c03ec37f438b",
+      "name": "Del_cat1 updated",
+      "description": "this is main category- updated",
+      "items": [
+        {
+          "id": "3502",
+          "name": "Medium Special Sauce",
+          "price": 1.1
+        },
+        {
+          "id": "999969",
+          "name": "Item_3 updated",
+          "price": 170
+        },
+        {
+          "id": "999970",
+          "name": "Item_A previously uncategorized",
+          "price": 150
+        }
+      ],
+      "modifiers": [],
+      "hours": {
+        "m_open": 60,
+        "m_close": 1440,
+        "t_open": 60,
+        "t_close": 1440,
+        "w_open": 60,
+        "w_close": 1440,
+        "th_open": 60,
+        "th_close": 1440,
+        "f_open": 60,
+        "f_close": 1440,
+        "s_open": 0,
+        "s_close": 0,
+        "su_open": 0,
+        "su_close": 0
+      },
+      "menu_items": [
+        {
+          "active": true,
+          "name": "Medium Special Sauce",
+          "description": "",
+          "prices": [
+            {
+              "name": "",
+              "price": 1.1,
+              "pos": "3502"
+            }
+          ],
+          "images": [],
+          "pos_id": "3502",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "Item_3 updated",
+          "description": "item updated",
+          "prices": [
+            {
+              "name": "",
+              "price": 170,
+              "pos": "999969"
+            }
+          ],
+          "images": [],
+          "pos_id": "999969",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "Item_A previously uncategorized",
+          "description": "",
+          "prices": [
+            {
+              "name": "",
+              "price": 150,
+              "pos": "999970"
+            }
+          ],
+          "images": [],
+          "pos_id": "999970",
+          "option_groups": []
+        }
+      ]
+    },
+    {
+      "id": "9c7786b2-0935-40ff-b4cb-dd2a06979b28",
+      "name": "cat_5",
+      "description": "",
+      "items": [],
+      "modifiers": [],
+      "menu_items": []
+    },
+    {
+      "id": "3c77f76c-8b73-4cec-8dbd-6631f503d4a5",
+      "name": "cat_test24",
+      "description": "",
+      "items": [],
+      "modifiers": [],
+      "menu_items": []
+    },
+    {
+      "id": "8c8d8fae-e2a1-40b6-85e9-b160511ae5c3",
+      "name": "newly created category",
+      "description": "",
+      "items": [
+        {
+          "id": "999979",
+          "name": "new item Item Name",
+          "price": 100
+        }
+      ],
+      "modifiers": [
+        {
+          "id": "2532ac20-295c-11eb-9181-e5aba1009d41",
+          "name": "opx modifier 11",
+          "price": 11
+        },
+        {
+          "id": "4255c760-295c-11eb-9181-e5aba1009d41",
+          "name": "opx modifier 12",
+          "price": 12
+        },
+        {
+          "id": "49c4b3d0-295c-11eb-9181-e5aba1009d41",
+          "name": "opx modifier 13",
+          "price": 13
+        }
+      ],
+      "hours": {
+        "m_open": 60,
+        "m_close": 1440,
+        "t_open": 60,
+        "t_close": 1440,
+        "w_open": 60,
+        "w_close": 1440,
+        "th_open": 60,
+        "th_close": 1440,
+        "f_open": 60,
+        "f_close": 1440,
+        "s_open": 0,
+        "s_close": 0,
+        "su_open": 0,
+        "su_close": 0
+      },
+      "menu_items": [
+        {
+          "active": true,
+          "name": "new item Item Name",
+          "description": "",
+          "prices": [
+            {
+              "name": "",
+              "price": 100,
+              "pos": "999979"
+            }
+          ],
+          "images": [],
+          "pos_id": "999979",
+          "option_groups": [
+            {
+              "id": "42fd8498-aed6-463c-abd2-3cf424af673d",
+              "name": "OPX moditier group 1",
+              "min": 1,
+              "max": 2,
+              "multiselect": true,
+              "complex": false,
+              "quantities": false,
+              "options": [
+                {
+                  "name": "opx modifier 11",
+                  "price": 11,
+                  "pos": "2532ac20-295c-11eb-9181-e5aba1009d41"
+                },
+                {
+                  "name": "opx modifier 12",
+                  "price": 12,
+                  "pos": "4255c760-295c-11eb-9181-e5aba1009d41"
+                },
+                {
+                  "name": "opx modifier 13",
+                  "price": 13,
+                  "pos": "49c4b3d0-295c-11eb-9181-e5aba1009d41"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5a393c2b-cf13-49b2-a12e-f888dc19b853",
+      "name": "OPX lengthy cat qqqqqqqqqqqqqqqqq1 11111111111111111 333333333333333333 4455555555555555555555555555 7777777777777777777777777777777777 8888888888888888888888888 99999999999999999999999999999 000000000000000000000000000000000000000000000000000 aaaaaaaaaaa",
+      "description": "OPX lengthy cat qqqqqqqqqqqqqqqqq1 11111111111111111 333333333333333333 4455555555555555555555555555 7777777777777777777777777777777777 8888888888888888888888888 99999999999999999999999999999 000000000000000000000000000000000000000000000000000 aaaaaaaaaaa",
+      "items": [
+        {
+          "id": "5002",
+          "name": "Boneless Wing Tuesday",
+          "price": 2.75
+        },
+        {
+          "id": "999976",
+          "name": "Item_5",
+          "price": 180
+        }
+      ],
+      "modifiers": [],
+      "hours": {
+        "m_open": 0,
+        "m_close": 1440,
+        "t_open": 0,
+        "t_close": 1440,
+        "w_open": 60,
+        "w_close": 1440,
+        "th_open": 0,
+        "th_close": 1440,
+        "f_open": 0,
+        "f_close": 1440,
+        "s_open": 0,
+        "s_close": 1440,
+        "su_open": 0,
+        "su_close": 0
+      },
+      "menu_items": [
+        {
+          "active": true,
+          "name": "Boneless Wing Tuesday",
+          "description": "Dipping Sauce not included.  Minimum 5 piece boneless wings.  (One flavor per 5 pc.) Our wings are made fresh so it takes a bit longer (est. 20 minutes.)",
+          "prices": [
+            {
+              "name": "",
+              "price": 2.75,
+              "pos": "5002"
+            }
+          ],
+          "images": [],
+          "pos_id": "5002",
+          "option_groups": []
+        },
+        {
+          "active": true,
+          "name": "Item_5",
+          "description": "",
+          "prices": [
+            {
+              "name": "",
+              "price": 180,
+              "pos": "999976"
+            }
+          ],
+          "images": [],
+          "pos_id": "999976",
+          "option_groups": []
+        }
+      ]
+    }
+  ]
+}
